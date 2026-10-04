@@ -1,0 +1,27 @@
+category,variable,description,source_or_derivation,notes
+A1,Year,Census/reference period,Census period,"Census of India-data is available for three decades, 1991, 2001, and 2011, as per the 2026 data availability"
+A2,Sex,Census-defined sex category,Census D-02 series migration data,Two available categories: Male and Female
+A3,Source (x),Source/place of last residence,,Available places of last residence as per each census decade
+A4,Destination (y),Destination/place of enumeration,,Available places of enumeration as per each census decade
+A5,Migrants,Number of migrants for source-destination-sex-duration combination,,"Migration counts provided in the census tables under ""Less than one year"" duration category"
+B1,Total_Male,Male population of source state/UT,"Selected socio-economics statistics, India, provided by Ministry of Statistics and Programme Implementation (MoSPI)",Demographic features
+B2,Total_Female,Female population of source state/UT,,
+B3,Rural_Male,Male population of rural regions of source state/UT,,
+B4,Rural_Female,Female population of rural regions of source state/UT,,
+B5,Rural_Density,Population density of rural regions of source state/UT,,
+B6,Urban_Density,Population density of urban regions of source state/UT,,
+C1,Male Job-Seekers Registered with Employment Exchanges,Number of registered males who are seeking employment in the source state/UT,,Socio-economic features
+C2,Female Job-Seekers Registered with Employment Exchanges,Number of registered females who are seeking employment in the source state/UT,,
+C3,Primary SC,Number of Scheduled caste students at Primary schools in source state/UT,,
+C4,Primary ST,Number of Scheduled tribe students at Primary schools in source state/UT,,
+C5,Middle SC,Number of Scheduled caste students at Mid-level schools in source state/UT,,
+C6,Middle ST,Number of Scheduled tribe students at Mid-level schools in source state/UT,,
+C7,Population below  poverty line Percentage URP,Population living below poverty line in source state/UT counted as per the Uniform Reference Period,,
+C8,Population below  poverty line Percentage MRP,Population living below poverty line  in source state/UT counted as per the Mixed Reference Period,,
+C9,Population density,Population density of the source state/UT,,
+C10,Urban Population,Urban population count of the source state/UT,,
+C11,CPR,Couple Protection Rates in source state/UT ,,
+C12,Total Employed (lakhs),Total number of people employed in state/UT,,
+C13,% of women employment to total employment,Percentage of women employed in source state/UT ,,
+C14,Girls marriage below 18 (%),Percentage of girls married below age 18 in source state/UT ,,
+D1,Distance,Distance between source and destination centroids,Derived using Haversine formula between state centroids,python script provided in Code folder
