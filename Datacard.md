@@ -87,11 +87,12 @@ The data are aggregated at the state/Union Territory levels representing the sou
 
 ## 6. Dataset Structure
 
-The features in PRABASI are divided into three categories:
+The features in PRABASI are divided into four categories:
 
 - **Category A:** state-pair-specific features;
-- **Category B:** state-specific demographic features; and
-- **Category C:** state-specific socio-economic features.
+- **Category B:** state-specific demographic features; 
+- **Category C:** state-specific socio-economic features; and
+- **Category D:** state-pair-specific distance between centroids.
 
 The distinction between these categories is important because Category A describes a relationship between two states, whereas Categories B and C describe individual states.
 
@@ -114,7 +115,7 @@ where:
 
 ## 6. Data Sources
 
-### 6.1 Census Migration Data
+### 6.1 Census Migration Data (Category A)
 
 Migration observations were obtained from official Census of India migration data.
 
@@ -128,9 +129,9 @@ PRABASI uses:
 
 ---
 
-### 6.2 Socio-Economic and Demographic Data
+### 6.2 Socio-Economic and Demographic Data (Category B and C)
 
-Socio-economic indicators were obtained from official statistical publications.
+Demographic and socio-economic indicators were obtained from official statistical publications. 
 
 One principal source is:
 
@@ -146,7 +147,7 @@ The publication contains indicators from multiple domains, including population,
 
 The publication also contains indicators whose reference years differ from 2011. Therefore, source-year information should be retained when interpreting individual variables.
 
-### 6.3 Distance between source-destination pairs
+### 6.3 Distance between source-destination pairs (Category D)
 
 PRABASI documents distance (in kilometres) between the centroids of the source and destination state polygons, calculated using the Haversine formula.
 The code used for calculating the distance between pairs is provided in the **Code** folder. 
