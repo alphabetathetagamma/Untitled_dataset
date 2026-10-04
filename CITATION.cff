@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite the accompanying PRABASI dataset paper."
+title: "PRABASI: A Multi-Decadal Dataset of Socio-Economic Disparities and Interstate Migration in India"
+version: "Anonymous peer-review version"
+date-released: 2026
+type: dataset
+abstract: >
+  Modeling internal migration in the Global South is fundamentally bottlenecked by a lack of high-fidelity, longitudinal data. We introduce PRABASI, a multi-decadal dataset curated to benchmark interstate migration in India across three census cycles (1991-2011). Moving beyond traditional gravity models, PRABASI integrates 14 state-level socio-economic indicators engineered into relational attributes that capture inter-regional disparities. Benchmarking with gradient-boosted architectures yields robust performance ($R^2 = 0.90$) under rigorous temporal and spatial holdouts, significantly outperforming standard log-linear baselines. Crucially, our evaluations reveal that these relational features, such as educational and health divides, exhibit profound predictive power, exposing distinct non-linear push-pull dynamics between male and female cohorts. PRABASI provides a validated, ML-ready foundation for uncovering the complex drivers of subnational migration in developing economies.
+keywords:
+  - migration
+  - interstate migration
+  - India
+  - machine learning
+  - socio-economic disparities
+  - Census
+  - computational social science
