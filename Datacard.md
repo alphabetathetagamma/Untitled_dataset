@@ -142,7 +142,7 @@ Total = 46 features
 
 ### 6.1 Census Migration Data (Category A)
 
-Migration observations were obtained from official Census of India migration data.
+Migration observations were obtained from the official Census of India migration data. Available at https://censusindia.gov.in/census.website/data/census-tables )
 
 The relevant migration data are from D-series migration tables, particularly the D-02 series.
 
@@ -158,9 +158,11 @@ PRABASI uses:
 
 Demographic and socio-economic indicators were obtained from official statistical publications. 
 
-One principal source is:
+Primary source is:
 
 **Selected Socio-Economic Statistics, India, 2011**
+
+(Available at https://www.mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/social_statistics/Chapter_4.pdf )
 
 Government of India  
 Ministry of Statistics and Programme Implementation  
