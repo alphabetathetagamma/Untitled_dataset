@@ -142,7 +142,8 @@ Total = 46 features
 
 ### 6.1 Census Migration Data (Category A)
 
-Migration observations were obtained from the official Census of India migration data. Available at https://censusindia.gov.in/census.website/data/census-tables )
+Migration observations were obtained from the official Census of India migration data. 
+(Available at https://censusindia.gov.in/census.website/data/census-tables )
 
 The relevant migration data are from D-series migration tables, particularly the D-02 series.
 
