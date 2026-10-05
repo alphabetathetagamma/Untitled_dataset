@@ -163,7 +163,8 @@ Primary source is:
 
 **Selected Socio-Economic Statistics, India, 2011**
 
-(Available at https://www.mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/social_statistics/Chapter_4.pdf )
+(Available at https://www.mospi.gov.in/sites/default/files/reports_and_publication/statistical_publication/social_statistics/Chapter_4.pdf 
+and https://mospi.gov.in/sites/default/files/publication_reports/sel_socio_eco_stats_ind_2001_28oct11.pdf)
 
 Government of India  
 Ministry of Statistics and Programme Implementation  
@@ -177,11 +178,11 @@ The publication also contains indicators whose reference years differ from 2011.
 
 ### 6.3 Distance between source-destination pairs (Category D)
 
-PRABASI documents distance (in kilometres) between the centroids of the source and destination state polygons, calculated using the Haversine formula.
-The code used for calculating the distance between pairs is provided in the **Code** folder. 
+PRABASI documents the distance (in kilometers) between the centroids of the source and destination state polygons, calculated using the Haversine formula.
+The code used to calculate distances between pairs is available in the file Code\distance_calculator.py. 
 
 ---
-The feature-specific details of the sources are provided in file Metadata\source_provenance.csv
+The complete feature-specific details of each of the sources are provided in the file Metadata\source_provenance.csv
 
 ---
 
